@@ -13,15 +13,15 @@ function handleClick(e) {
 function greet(str){
   if (str <12) {
     return "Good Morning"
-    
+
   } else if(str>12 && str<17){
     return "Good Afternoon"
-    
+
   }
   else if(str>17){
     return "Good Evening"
   }
-  
+
 }
 /* Write your implementation of displayMessage() */
 
