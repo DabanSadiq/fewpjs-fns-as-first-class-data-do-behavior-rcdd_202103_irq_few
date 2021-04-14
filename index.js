@@ -15,11 +15,11 @@ function greet( str){
   if (parseInt (str) <12) {
     return "Good Morning"
 
-  } else if(str>12 && str<17){
+  } else if(parseInt (str)>12 && parseInt (str)<17){
     return "Good Afternoon"
 
   }
-  else if(str>17){
+  else if(parseInt (str)>17){
     return "Good Evening"
   }
 
