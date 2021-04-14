@@ -27,5 +27,6 @@ function greet( str){
 /* Write your implementation of displayMessage() */
 
 function displayMessage(str){
-  const h1 = document.getElementById('greeting')
+  const h1 = document.getElementById('greeting');
+  h1.innerHTML= str;
 }
