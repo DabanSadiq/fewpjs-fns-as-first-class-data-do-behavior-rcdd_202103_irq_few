@@ -11,6 +11,20 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(str){
-  cosole.log(str);
+  if (str <12) {
+    return "Good Morning"
+    
+  } else if(str>12 && str<17){
+    return "Good Afternoon"
+    
+  }
+  else if(str>17){
+    return "Good Evening"
+  }
+  
 }
 /* Write your implementation of displayMessage() */
+
+function displayMessage(str){
+  const h1 = document.getElementById('greeting')
+}
