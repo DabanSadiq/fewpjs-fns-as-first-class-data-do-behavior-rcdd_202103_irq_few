@@ -28,5 +28,5 @@ function greet( str){
 
 function displayMessage(str){
   const h1 = document.getElementById('greeting');
-  h1.innerHTML= str;
+  h1.innerText= str;
 }
